@@ -55,4 +55,3 @@ function tik(e){
     scoreBoard.textContent=point;
 }
 moles.forEach(mole => mole.addEventListener("click",tik));
-moles.forEach(mole => mole.addEventListener("touch",tik));
